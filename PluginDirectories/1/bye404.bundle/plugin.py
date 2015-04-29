@@ -4,7 +4,7 @@ import i18n
 def results(parsed, original_query):
 
     search_specs = [
-         ["bye404", "~query", "http://www.886404.com/search?q="]
+         ["bye404", "~query", "http://x.886404.com/#q="]
     		]
     for name, key, url in search_specs:
         if key in parsed:
